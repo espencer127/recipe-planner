@@ -1,0 +1,1593 @@
+{
+    "recipes": [
+        {
+            "title": "15 Minute Brownies",
+            "categories": "dessert",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "flour"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "baking soda"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "butter"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "sugar"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "water"
+                    },
+                    {
+                        "amt": {
+                            "qty": "12",
+                            "unit": "ounces"
+                        },
+                        "item": "chocolate chips; semi-sweet"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "vanilla"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "eggs"
+                    }
+                ]
+            },
+            "directions": "1. Combine flour, soda and salt; set aside.          2. In microwave-safe mixing bowl, combine butter, sugar and water. Cook for        2 minutes at 100% power, stirring after 1 minute. Remove from oven.Add 1        cup chocolate chips and vanilla and stir until smooth and chips are melted.                3. Add eggs, one at a time, beating after each addition. Blend in flour        mixture and stir in remaining chocolate chips.                4. Pour into an 8 or 9 inch microwave-safe baking pan. Place a saucer,        upside down, in the microwave and put baking pan on top of saucer.                5. Cook at 70% power for 10 minutes turning after 5 minutes. Enjoy!                busted by sooz        Posted to recipelu-digest by sooz  on Mar 18, 1998"
+        },
+        {
+            "title": "#1 Lemon Bars",
+            "categories": "dessert",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cups"
+                        },
+                        "item": "all-purpose flour"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "powdered sugar"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "sticks butter; softened"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "unit"
+                        },
+                        "item": "eggs; lightly beaten"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cups"
+                        },
+                        "item": "granulated sugar"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "tablespoons"
+                        },
+                        "item": "flour"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "lemon juice"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "additional powdered sugar"
+                    }
+                ]
+            },
+            "directions": "In bowl combine flour, sugar and butter.  Pat into 9X13 pan.  Bake for 20\n  minutes in a 350F oven.  While it is baking, whisk together eggs, 3 TB\n  flour, sugar and lemon juice.  Pour over crust while crust is still hot.\n  Bake for an additional 20-25 minutes, or until top is golden brown. Cool on\n  a wire rack and dust with additional powdered sugar.\n  \n  Posted to Bakery-Shoppe Digest V1 #206 by novmom@juno.com (Angela\n  Gilliland) on Aug 29, 1997",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/cmVjaXBlcGljdHVyZTAyMTYxNTUyMzQuanBn"
+        },
+        {
+            "title": "1,2,3,4 Cake",
+            "categories": "dessert",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "stick butter"
+                        },
+                        "item": "butter"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cups"
+                        },
+                        "item": "sugar"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "unit"
+                        },
+                        "item": "eggs; separated"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "cups"
+                        },
+                        "item": "flour"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "milk (minus 1 tbsp)"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "vanilla"
+                    }
+                ]
+            },
+            "directions": "<p>When a southern lady, and she is a lady, told me about this cake I\n  responded with utter ignorance. She could not believe that I had never\n  heard of such a thing. The recipe resembles a fine pound cake in terms of\n  both flavor and texture. Sliced thin, with a cup of black coffee, it makes\n  a wonderful southern afternoon snack.\n</p><ol><li>  \n    Using an electric mixer, cream the butter, sugar, and egg yolks. </li><li>Mix the\n  flour and baking powder together and sift into the creamed mixture, adding\n  alternately with the milk. </li><li>Add the flavorings. </li><li>Whip the egg whites to form\n  stiff peaks and gently fold into the batter. </li><li>Bake in a loaf pan in a\n  preheated oven at 300ø for 1-1/4 hours, or until a toothpick stuck into the\n  center of the cake comes out clean.\n</li></ol><p>  \n  From .  Downloaded from Glen's MM Recipe\n  Archive, http://www.erols.com/hosey.</p>"
+        },
+        {
+            "title": "1-1-1 Cookies",
+            "categories": "dessert",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "peanut butter"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "egg"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "sugar"
+                    }
+                ]
+            },
+            "directions": "Blend and drop onto cookie sheet. Use a fork to make the customary\n  criss-cross design. Bake for 10 minutes in a pre-heated 425 deg oven. Let\n  cool to touch before moving them onto cooling racks.\n  \n  Posted to MM-Recipes Digest V5 #019 by Dan Hudson  on Jan\n  19, 1998"
+        },
+        {
+            "title": "125-Year-Old Walnut Party Pound Cake",
+            "categories": "dessert",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "cups"
+                        },
+                        "item": "sugar"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "rum extract"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "cups"
+                        },
+                        "item": "flour"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "half and half"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "shortening"
+                    },
+                    {
+                        "amt": {
+                            "qty": "5",
+                            "unit": "unit"
+                        },
+                        "item": "eggs"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "vanilla"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "black walnuts; chopped"
+                    }
+                ]
+            },
+            "directions": "Cream butter and shortening.  Add sugar and beat until very light.  Add\n  eggs, one at a time, beating well. Add flavoring and beat again. Add flour\n  mixed with baking powder, alternating with milk, starting and ending with\n  flour. Fold in walnuts.\n  Pour into a tube pan that has been greased and floured.  Use one very large\n  pan, size 4 3/4 x 9 1/2 inches.  Bake for 80 minutes.  Or use two regular\n  pans, size 3 1/2 x 9 inches and bake for 70 minutes. Bake at 325 degrees.\n  \n  Do not open oven during first hour.\n  \n  NOTE:  If you do not like rum flavoring, it may be omitted; however,\n  increase the vanilla to 2 teaspoons.\n  Posted to MC-Recipe Digest V1 #291\n  \n  Date: Sun, 10 Nov 1996 14:46:41 -0800 (PST)\n  \n  From: \"Steve L. Balliet\" "
+        },
+        {
+            "title": "20-Minute Chicken Parmesan",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "8",
+                            "unit": "unit"
+                        },
+                        "item": "chicken breast halves without skin"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "egg; slightly beaten"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "bread crumbs; seasoned"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "butter"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cups"
+                        },
+                        "item": "spaghetti sauce"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "mozzarella cheese; shredded"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "parmesan cheese; grated"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "fresh parsley; chopped"
+                    }
+                ]
+            },
+            "directions": "Using palm of hand flatten chicken to even thickness. Dip chicken into egg\n  then into crumbs to coat. In skillet over medium heat, in hot margarine,\n  brown chicken on both sides. Add Prego sauce. Reduce heat. Cover; simmer 10\n  minutes. Sprinkle with cheeses and parsley. Cover; simmer 5 minutes or\n  until cheese melts. 4 servings.\n  \n  Suggested Wine: Chianti, Chardonnay\n  \n  Recipe by: Key Gourmet\n  \n  Posted to recipelu-digest by James and Susan Kirkland  on\n  Feb 22, 1998"
+        },
+        {
+            "title": "30-Min: Beef Fajitas",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "vegetable oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "onion, cut in strips"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "garlic cloves, minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "chili powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "pound"
+                        },
+                        "item": "lean ground beef"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "salsa"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "sweet red pepper, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "sweet green pepper, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "small"
+                        },
+                        "item": "zucchini, thinly sliced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "unit"
+                        },
+                        "item": "10-inch flour tortillas"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cups"
+                        },
+                        "item": "low-fat sour cream"
+                    }
+                ]
+            },
+            "directions": "In nonstick skillet, heat oil over medium-high heat; cook onion, garlic,\n  chili powder, salt and pepper, stirring often, for 5 minutes or until onion\n  is softened.\n  \n  Add beef and salsa; cook, breaking up beef with back of spoon, for about 3\n  minutes or until beef is no longer pink. Add peppers and zucchini; cook,\n  stirring, for 3 minutes or until tender-crisp and liquid has evaporated.\n  \n  Meanwhile, wrap tortillas in foil; heat in 350F 180C oven for 5 minutes or\n  until warmed through. Stir sour cream with mustard. Divide beef mixture\n  among tortillas and roll up. Serve with sour cream mixture.\n  \n  4 servings for $9.56CDN [Aug 95]\n  \n  Per Serving: about 545 calories, 31 g protein, 25 g fat, 49 g carbohydrate,\n  good source calcium, excellent source iron\n  \n  Source: Canadian Living magazine, Aug 95 Article \"30-Minute Summer Suppers\"\n  Recipe by Canadian Living Test Kitchen\n  \n      [-=PAM=-]   PA_Meadows@msn.com\n  \n  From Gemini's MASSIVE MealMaster collection at www.synapse.com/~gemini"
+        },
+        {
+            "title": "30-Min: Chili Cornmeal Chicken",
+            "categories": "dinner,30 min or less",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "tablespoons"
+                        },
+                        "item": "cornmeal"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "chili powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground cumin"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "dried oregano"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "pinch"
+                        },
+                        "item": "cayenne pepper"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "unit"
+                        },
+                        "item": "chicken breasts, boneless, skinless"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "vegetable oil"
+                    }
+                ]
+            },
+            "directions": "Slice some juicy, fresh tomatoes while you steam green beans and new\n  potatoes to serve with this dish.\n  \n  In shallow dish, combine cornmeal, flour, chili powder, cumin, oregano,\n  salt and cayenne.\n  \n  Press chicken into mixture to coat all over. In nonstick skillet, beat oil\n  over medium heat; cook chicken, turning once, for 10-15 minutes or until no\n  longer pink inside.\n  \n  4 servings for $5.92CDN [Aug 95]\n  \n  Per Serving: about 180 calories, 28 g protein, 5 g fat, 3 g carbohydrate,\n  \n  Source: Canadian Living magazine, Aug 95 Article \"30-Minute Summer Suppers\"\n  Recipe by Canadian Living Test Kitchen\n  \n      [-=PAM=-]   PA_Meadows@msn.com\n  \n  From Gemini's MASSIVE MealMaster collection at www.synapse.com/~gemini"
+        },
+        {
+            "title": "World's Best Honey Garlic Pork Chops",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "ketchup"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "tablespoons"
+                        },
+                        "item": "honey"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "low-sodium soy sauce"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, crushed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "6",
+                            "unit": "unit"
+                        },
+                        "item": "4 ounce, 1-inch thick pork chops"
+                    }
+                ]
+            },
+            "directions": "Preheat grill for medium heat and lightly oil the grate. Gather ingredients.<br />Whisk ketchup, honey, soy sauce, and garlic together in a bowl to make a glaze.<br />Sear the pork chops on both sides on the preheated grill. Lightly brush glaze onto each side of the chops as they cook; grill until no longer pink in the center, about 7 to 9 minutes per side. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).<br />Serve hot and enjoy!",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/bWUxa3JiY2hzdG0wd3U5ZXF0bHQyMzUxNTgtd29ybGRzLWJlc3QtaG9uZXktZ2FybGljLXBvcmstY2hvcHMtYWxscmVjaXBlcy0xeDEtMS1lNzE0NzdjYTEwY2Y0MDM3OGEzMGE2NDQyY2FiZWIwNy5qcGc="
+        },
+        {
+            "title": "Pan-Seared Tilapia",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "4 ounce"
+                        },
+                        "item": "tilapia fillets"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "to taste"
+                        },
+                        "item": "salt and black pepper"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "olive oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "unsalted butter, melted"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "chopped fresh flat-leaf parsley"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "chopped fresh thyme"
+                    }
+                ]
+            },
+            "directions": "Rinse tilapia fillets in cold water and pat dry with paper towels. Season both sides of each fillet with salt and pepper.<br />Place flour in a shallow dish. Gently press each fillet into the flour to coat and shake off any excess.<br />Heat olive oil in a large skillet over medium-high heat. Cook tilapia fillets in the hot oil, in batches if necessary, until fish flakes easily with a fork, about 4 minutes per side.<br />Brush melted butter onto the tilapia fillets in the last minute before removing from the skillet.<br />Drizzle fillets with lemon juice and garnish with parsley and thyme.",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/ZGNxMGlwdTZrZmRnamtwZnhuanhraXRpbGFwaWEuanBn"
+        },
+        {
+            "title": "Three-Ingredient Baked Chicken Breasts",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "butter, melted"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "halved"
+                        },
+                        "item": "boneless skinless chicken breasts"
+                    }
+                ]
+            },
+            "directions": "Preheat the oven to 350 degrees F (175 degrees C). Lightly butter a baking dish.<br />Stir together melted butter and salt in a bowl.<br />Arrange chicken in the prepared baking dish. Brush butter mixture onto chicken until thoroughly coated, pouring any extra over chicken.<br />Bake in the preheated oven until no longer pink in the center and juices run clear, 30 to 45 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+        },
+        {
+            "title": "Sexy Shrimp Scampi",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "30",
+                            "unit": "unit"
+                        },
+                        "item": "medium shrimp"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "kosher salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground black pepper"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoon"
+                        },
+                        "item": "olive oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "0",
+                            "unit": "tablespoons"
+                        },
+                        "item": "butter, melted"
+                    }
+                ]
+            },
+            "directions": "<p>Preheat an oven to 350 degrees F (175 degrees C).<br />Toss the shrimp in a bowl with the olive oil, melted butter, garlic, salt, and pepper; set aside for 10 minutes. Arrange the shrimp in a circular pattern in a round casserole dish.<br />Bake in the preheated oven until the shrimp are pink and cooked through, about 15 minutes.</p><p><span style=\"font-size:13.6px;\">https://www.allrecipes.com/recipe/136525/sexy-shrimp-scampi/</span><br /></p>",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/dGUwY21ka2ZxdG10aThta2RxeG9nbHNleHlzaHJpbXBzY2FtcGkuanBn"
+        },
+        {
+            "title": "Spicy Vegan Potato Curry",
+            "categories": "dinner",
+            "diet": "vegan",
+            "numIngredients": "14",
+            "yield": "1",
+            "prepTime": "20",
+            "cookTime": "30",
+            "totalTime": "50",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "unit"
+                        },
+                        "item": "potatoes peeled and cubed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "yellow"
+                        },
+                        "item": "yellow onion, diced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground cumin"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "(1-inch) piece fresh ginger root, peeled and minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned garbanzo beans (chickpeas), rinsed and drained"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned peas, drained"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "14.5 oz can"
+                        },
+                        "item": "canned diced tomatoes"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "14 oz can"
+                        },
+                        "item": "canned coconut milk"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "teaspoon"
+                        },
+                        "item": "curry powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "teaspoon"
+                        },
+                        "item": "garam masala"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "vegetable oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "cayenne pepper"
+                    }
+                ]
+            },
+            "directions": "Place potatoes into a large pot and cover with salted water. Bring to a boil, then reduce the heat to medium-low, cover, and simmer until just tender, about 15 minutes. Drain and allow to steam dry for 1 to 2 minutes.<br />Meanwhile, heat oil in a large skillet over medium heat. Cook and stir onion and garlic in hot oil until onion has softened and turned translucent, about 5 minutes. Season with curry powder, garam masala, cumin, salt, ginger, and cayenne pepper; cook and stir for 2 minutes more.<br />Add cooked potatoes, garbanzo beans, peas, and tomatoes, then pour in coconut milk. Bring to a simmer and continue cooking for 5 to 10 minutes.",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/OW43c2JrbDhqM2s3dXBreXc2djkwbHNwaWN5IHZlZ2FuIGN1cnJ5LndlYnA="
+        },
+        {
+            "title": "Chickpea Curry",
+            "categories": "dinner",
+            "diet": "vegan",
+            "numIngredients": "13",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoon"
+                        },
+                        "item": "vegetable oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "onions, minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "fresh ginger root, finely chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "6",
+                            "unit": "unit"
+                        },
+                        "item": "whole cloves"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "(2-inch) sticks cinnamon, crushed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground cumin"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground coriander"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "cayenne pepper"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground turmeric"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned garbanzo beans"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "chopped fresh cilantro"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "salt"
+                    }
+                ]
+            },
+            "directions": "Heat oil in a large frying pan over medium heat. Add onion; cook and stir until onions are tender, about 3 to 5 minutes.<br />Stir in garlic, ginger, cloves, cinnamon, cumin, coriander, salt, cayenne, and turmeric. Cook for 1 minute over medium heat, stirring constantly. Mix in chickpeas and their liquid. Continue to cook and stir until heated through. Remove from heat. Stir in cilantro just before serving, reserving 1 tablespoon for garnish.",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/YXU1ZmM2dm0wN3RhNWJ2MGFyNGpocmVjaXBlcGljdHVyZTAyMTUxOTE1MjkuanBn"
+        },
+        {
+            "title": "Easy Palak Paneer",
+            "categories": "dinner",
+            "diet": "vegetarian",
+            "numIngredients": "15",
+            "yield": "1",
+            "prepTime": "20",
+            "cookTime": "35",
+            "totalTime": "60",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "olive oil, divided"
+                    },
+                    {
+                        "amt": {
+                            "qty": "6",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, crushed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground coriander"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground turmeric"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "garam masala"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "red pepper flakes"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "curry powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground cumin"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "10-ounce package"
+                        },
+                        "item": "frozen chopped spinach, thawed and drained"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "whole"
+                        },
+                        "item": "tomatoes, diced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "water"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "grated fresh ginger root"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cups"
+                        },
+                        "item": "cubed paneer"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "yellow onion, diced"
+                    }
+                ]
+            },
+            "directions": "Heat 1 tablespoon olive oil in a skillet over medium heat; cook and stir onion in hot oil until slightly tender, about 5 minutes. Add garlic, coriander, turmeric, garam masala, red pepper flakes, curry powder, cumin, and salt; cook and stir until fragrant, about 1 minute.<br />Mix spinach, tomatoes, water, and ginger into onion mixture; simmer for 20 minutes. Remove from heat and cool slightly, about 5 minutes.<br />Transfer spinach mixture to a blender and blend until smooth. Set aside.<br />Heat remaining 1 tablespoon olive oil in the same skillet over medium heat; cook and stir paneer in hot oil until lightly browned, about 5 minutes. Stir in puréed spinach mixture and cook until heated through, 3 to 5 minutes. https://www.allrecipes.com/recipe/256164/easy-palak-paneer/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/NDllanRkYjd1NWl3a3dhenI4ejBub3BhbGFrcGFuZWVyLndlYnA="
+        },
+        {
+            "title": "Vegan Sweet Potato Chickpea Curry",
+            "categories": "dinner",
+            "diet": "vegan",
+            "numIngredients": "14",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "tablespoons"
+                        },
+                        "item": "olive oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "onion, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, minced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "teaspoon"
+                        },
+                        "item": "minced fresh ginger root"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned chickpeas, drained"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "14.5 oz can"
+                        },
+                        "item": "canned diced tomatoes"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "14 oz can"
+                        },
+                        "item": "canned coconut milk"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "sweet potato, cubed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "tablespoon"
+                        },
+                        "item": "garam masala"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground cumin"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "ground turmeric"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "red chile flakes"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "baby spinach"
+                    }
+                ]
+            },
+            "directions": "Heat oil in a skillet over medium heat. Cook onion, garlic, and ginger in hot oil until softened, about 5 minutes. Add chickpeas, tomatoes, coconut milk, and sweet potato. Bring to a boil, reduce heat to low, and simmer until tender, about 15 minutes.<br />Season with garam masala, cumin, turmeric, salt, and chile flakes. Add spinach right before serving. https://www.allrecipes.com/recipe/265472/vegan-sweet-potato-chickpea-curry/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/cDE4eDBjNmR5b2Ftd3k3ZjhtYzJsdmVnYW4gc3dlZXQgcG90YXRvIGNoaWNrcGVhIGN1cnJ5LndlYnA="
+        },
+        {
+            "title": "Chana Masala (Savory Indian Chick Peas)",
+            "categories": "dinner",
+            "diet": "vegan",
+            "numIngredients": "15",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "onion, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "tomato, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "(1-inch) piece fresh ginger, peeled and chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "cloves"
+                        },
+                        "item": "garlic, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "green chile pepper, seeded and chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "3",
+                            "unit": "tablespoons"
+                        },
+                        "item": "olive oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "fresh bay leaves"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "chili powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "coriander powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "garam masala"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "turmeric powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "pinch"
+                        },
+                        "item": "salt to taste"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "water"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned chickpeas"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "fresh cilantro leaves"
+                    }
+                ]
+            },
+            "directions": "Grind onion, tomato, ginger, garlic, and chile pepper together in a food processor into a paste.<br />Heat olive oil in a large skillet over medium heat. Fry bay leaves in hot oil until fragrant, about 30 seconds. Pour the paste into the skillet and cook until the oil begins to separate from the mixture and is golden brown in color, 2 to 3 minutes. Season the mixture with chili powder, coriander, gram masala, turmeric, and salt; cook and stir until very hot, 2 to 3 minutes.<br />Stir enough water into the mixture to get a thick gravy; bring to a boil and stir chickpeas into the gravy. Reduce heat to medium and cook until the chickpeas are heated through, 5 to 7 minutes. Garnish with cilantro. https://www.allrecipes.com/recipe/236564/chana-masala-savory-indian-chick-peas/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/dWh3NDE0ZGIyZjBtZGEyaTVmNWlwaWNoYW5hbWFzYWxhc2F2b3J5aW5kaWFuY2hpY2twZWFzLnBuZw=="
+        },
+        {
+            "title": "Pan-Fried Pork Chops",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "4",
+                            "unit": "unit"
+                        },
+                        "item": "pork chops, 3/4-inch thick"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "salt and freshly ground black pepper to taste"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "all-purpose flour"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "cooking oil"
+                    }
+                ]
+            },
+            "directions": "Do not pat chops dry, so seasonings and flour will stick.<br />Season both sides of pork chops with salt and pepper, then sprinkle with flour on both sides. Use the back of a spoon to distribute the flour over the entire surface.<br />Heat oil in a 12-inch non-stick skillet over medium heat until it shimmers. Carefully add pork chops and pan fry until brown, about 4 minutes. Do not disturb the chops until ready to turn.<br />When you see the edges of the chops turn brown, turn, and pan fry the other side until no longer pink on the inside and brown on the outside, an additional 4 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C). Reduce heat, if they are browning too quickly. Serve warm. https://www.allrecipes.com/recipe/8495583/pan-fried-pork-chops/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/OGZ5ODJkdTZrZHp4bzcyOXZ3aGVrcGFuZnJpZWRwb3JrY2hvcHMuanBn"
+        },
+        {
+            "title": "Slow Cooker Cowboy Beans",
+            "categories": "dinner",
+            "diet": "carnivore",
+            "numIngredients": "9",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "pound"
+                        },
+                        "item": "ground beef"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "pound"
+                        },
+                        "item": "bacon, chopped"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "28 oz can"
+                        },
+                        "item": "canned baked beans with pork"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned kidney beans, rinsed and drained"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "15 oz can"
+                        },
+                        "item": "canned lima beans, rinsed and drained"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "ketchup"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "brown sugar"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "prepared mustard"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "onions, chopped"
+                    }
+                ]
+            },
+            "directions": "Gather the ingredients.<br />Heat a large skillet over medium-high heat. Cook and stir ground beef and bacon together in the hot skillet until beef is browned and crumbly, about 7 to 10 minutes.<br />Transfer hamburger and bacon into a slow cooker; stir in baked beans with pork, kidney beans, lima beans, onions, ketchup, brown sugar, and mustard.<br />Cover and cook on Low until thickened and bubbling, at least 3 hours. https://www.allrecipes.com/recipe/242080/slow-cooker-cowboy-beans/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/cmRvcmRqbXdjMHIwMG5ncnd4cm1rdmVhbHItMjQyMDgwLXNsb3ctY29va2VyLWNvd2JveS1iZWFucy53ZWJw"
+        },
+        {
+            "title": "Sautéed Green Beans",
+            "categories": "dinner",
+            "diet": "vegan",
+            "numIngredients": "6",
+            "yield": "1",
+            "cookTime": "10",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "olive oil"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "pound"
+                        },
+                        "item": "fresh green beans, trimmed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "onion salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "garlic salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "garlic powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "ground pepper to taste"
+                    }
+                ]
+            },
+            "directions": "Gather all ingredients.<br />Heat olive oil in a skillet over medium heat.<br />Add green beans, onion salt, garlic salt, garlic powder, and black pepper to skillet.<br />Cook and stir until desired tenderness is reached, 5 to 10 minutes.<br />Serve hot and enjoy! https://www.allrecipes.com/recipe/244868/sauteed-garden-fresh-green-beans/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/eDBxbWV6bmhxMmFkOGZ1cGN6a2kyaHJlY2lwZXBpY3R1cmUwMjE2MjEwNjQ1LmpwZw=="
+        },
+        {
+            "title": "Chicken Taco Bowls with Pinto Beans and Rice",
+            "categories": "dinner",
+            "yield": "1",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "6",
+                            "unit": "unit"
+                        },
+                        "item": "8-inch flour tortillas"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "18 oz package"
+                        },
+                        "item": "cooked chicken breast strips"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "8.8 oz pouch"
+                        },
+                        "item": "uncle ben's ready rice pinto beans & rice"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "cups"
+                        },
+                        "item": "prepared pico de gallo"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "shredded mexican blend cheese"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "avocado - peeled, pitted and sliced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "unit"
+                        },
+                        "item": "jalapeno peppers, thinly sliced"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "avocado ranch dressing, or to taste"
+                    }
+                ]
+            },
+            "directions": "<p>Preheat oven to 375 degrees F (190 degrees C).<br />Place each tortilla in a non-stick tortilla bowl maker; bake for 12 minutes. Allow to cool and remove from bowl maker.<br />Prepare chicken strips according to package directions.<br />Prepare rice according to package directions.<br />Divide chicken strips, beans and rice, and pico de gallo among the tortilla bowls. Garnish with shredded cheese, avocado slices, and jalapeno slices. Top with avocado ranch dressing.</p><p><br /></p><p><span style=\"font-size:13.6px;\">https://www.allrecipes.com/recipe/242481/chicken-taco-bowls-with-pinto-beans-and-rice/</span><br /></p>",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/am1td2ZseGV1cGlxdnM0bmd0ZDExZGNoaWNrZW50YWNvYm93bHN3aXRocGludG9iZWFucy5qcGc="
+        },
+        {
+            "title": "Vegan Chocolate Blended Baked Oats",
+            "categories": "breakfast,dessert",
+            "diet": "vegan",
+            "numIngredients": "10",
+            "yield": "1",
+            "prepTime": "5",
+            "cookTime": "25",
+            "ingredients": {
+                "ing": [
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "cooking spray"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "rolled oats"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "cup"
+                        },
+                        "item": "almond milk"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "unit"
+                        },
+                        "item": "ripe banana, mashed"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "cocoa powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "maple syrup"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "baking powder"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "vanilla extract"
+                    },
+                    {
+                        "amt": {
+                            "qty": "1",
+                            "unit": "teaspoon"
+                        },
+                        "item": "salt"
+                    },
+                    {
+                        "amt": {
+                            "qty": "2",
+                            "unit": "tablespoons"
+                        },
+                        "item": "vegan chocolate chips"
+                    }
+                ]
+            },
+            "directions": "Preheat the oven to 350 degrees F (175 degrees C). Spray two 8-ounce ramekins with cooking spray on the bottom and sides.<br />Combine oats, almond milk, banana, cocoa powder, maple syrup, baking powder, vanilla extract, and salt in a blender. Blend until all is combined well, 30 to 60 seconds. Fill mixture into the prepared ramekins and sprinkle each with 1 tablespoon chocolate chips.<br />Bake in the preheated oven until firm, about 25 minutes. https://www.allrecipes.com/recipe/283690/vegan-chocolate-blended-baked-oats/",
+            "pictureUrl": "http://localhost:8080/api/files/recipepictures/M2RubW5iMnZvejVhaHMzZnRzYmN5aWRlMTZlNjA0MTZkYmQzOWFmZDExZmMxMTRiMy53ZWJw"
+        }
+    ]
+}
