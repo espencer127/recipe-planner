@@ -20,6 +20,8 @@ export class AppComponent implements OnInit {
   recipeList: any;
   recipes: any;
   originalApiResponseRecipes: any;
+  desiredDiet: any = "";
+  desiredCategory: any = "";
 
   constructor(private httpService: HttpService) {}
 
@@ -35,34 +37,41 @@ export class AppComponent implements OnInit {
 
   }
 
-
   onChangeCategoryFilter($event:any) {
-    console.log("event value is ", $event.value);
+    this.desiredCategory = $event.value;
+    console.log("event value is ", this.desiredCategory);
     let filteredRecipes = _.filter(this.originalApiResponseRecipes,(item) => {
-      return item.categories.toLowerCase().includes($event.value)
+      return (item.categories.toLowerCase().includes(this.desiredCategory) &&
+      item.diet.toLowerCase().includes(this.desiredDiet))
     });
 
-    if ($event.value == "") {
-      filteredRecipes = this.originalApiResponseRecipes;
+    if (this.desiredCategory == "") {
+      filteredRecipes = _.filter(this.originalApiResponseRecipes,(item) => {
+        return (item.diet.toLowerCase().includes(this.desiredDiet))
+      });
     }
 
     this.recipes = filteredRecipes;
-
   }
 
 
   onChangeDietFilter($event: MatSelectChange) {
-    console.log("event value is ", $event.value);
+    this.desiredDiet = $event.value;
+    console.log("event value is ", this.desiredDiet);
+    
     let filteredRecipes = _.filter(this.originalApiResponseRecipes,(item) => {
-      return item.diet.toLowerCase().includes($event.value)
+      return (item.categories.toLowerCase().includes(this.desiredCategory) &&
+      item.diet.toLowerCase().includes(this.desiredDiet))
     });
 
-    if ($event.value == "") {
-      filteredRecipes = this.originalApiResponseRecipes;
+    if (this.desiredDiet == "") {
+      filteredRecipes = _.filter(this.originalApiResponseRecipes,(item) => {
+        return (item.categories.toLowerCase().includes(this.desiredCategory))
+      });
     }
 
     this.recipes = filteredRecipes;
-    }
+  }
 
 
 
