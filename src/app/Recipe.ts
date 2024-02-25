@@ -12,8 +12,9 @@ export class Recipe {
   ingredients: Ingredient;
   directions: string;
   pictureUrl: string;
+  selectedForThisWeek: boolean;
 
-  constructor(data?: { title?: any; categories?: any; diet?: any; numIngredients?: any; yield?: any; prepTime?: any; cookTime?: any; totalTime?: any; ingredients?: any; directions?: any; pictureUrl?: any; }) {
+  constructor(data?: { title?: any; categories?: any; diet?: any; numIngredients?: any; yield?: any; prepTime?: any; cookTime?: any; totalTime?: any; ingredients?: any; directions?: any; pictureUrl?: any; selectedForThisWeek?: any;}) {
       data = data || {};
       this.title = data.title;
       this.categories = data.categories;
@@ -26,5 +27,6 @@ export class Recipe {
       this.ingredients = data.ingredients;
       this.directions = data.directions;
       this.pictureUrl = data.pictureUrl;
+      this.selectedForThisWeek = data.selectedForThisWeek;
   }
 }

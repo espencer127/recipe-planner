@@ -13,7 +13,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/recipe-planner",
+            "outputPath": {
+              "base": "dist/recipe-planner",
+              "browser": "",
+              "server": "node-server",
+              "media": "resources"
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [

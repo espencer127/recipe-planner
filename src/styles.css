@@ -10,7 +10,7 @@
     border-radius: 25px;
     border-width: 5px;
     border-color: #b0bec5;
-    background: white;
+    color: #000000;
 }
 
 .example-fill-remaining-space {
@@ -103,6 +103,22 @@ main {
 
 .content p {
     margin-top: 1.5rem;
+}
+
+/* checkbox */
+mat-checkbox {
+    border-width: 0px;
+    border-style: dashed;
+}
+
+h3 {
+    color: var(--gray-900);
+    line-height: 100%;
+    letter-spacing: -0.125rem;
+    margin: 0;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
 }
 
 

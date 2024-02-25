@@ -14,33 +14,59 @@
       </mat-form-field>
     </span>
     <span>
-    <mat-form-field>
-      <mat-label>Category</mat-label>
-      <mat-select (selectionChange)="onChangeCategoryFilter($event)">
-        <mat-option value="">All</mat-option>
-        <mat-option value="dinner">Dinner</mat-option>
-        <mat-option value="dessert">Dessert</mat-option>
-      </mat-select>
-    </mat-form-field>
-  </span>
+      <mat-form-field>
+        <mat-label>Category</mat-label>
+        <mat-select (selectionChange)="onChangeCategoryFilter($event)">
+          <mat-option value="">All</mat-option>
+          <mat-option value="dinner">Dinner</mat-option>
+          <mat-option value="dessert">Dessert</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </span>
   </mat-toolbar-row>
 </mat-toolbar>
 
 <main class="main">
-  <div class="grid">
+  <div class="grid" *ngIf="this.recipeGridVisible">
     <div class="box" *ngFor="let recipe of recipes">
       <img src="{{recipe.pictureUrl}}" width="300px">
       <h2>{{recipe.title}}</h2>
-        {{recipe.categories}}<br>
-        Prep Time: {{recipe.prepTime}} Cook Time: {{recipe.cookTime}} Total Time: {{recipe.totalTime}} <br>
-        {{recipe.numIngredients}} Ingredients<br>
-        <ul>
-          <li *ngFor="let oneIng of recipe['ingredients']['ing']">
-            {{oneIng.amt.qty}} {{oneIng.amt.unit}} {{oneIng.item}}
-          </li>
-        </ul>
+      <section>
+        <mat-checkbox color="primary" (change)="toggleSelection($event, recipe)">
+          <h3>Cook this week</h3>
+        </mat-checkbox>
+      </section>
+      {{recipe.categories}}<br>
+      Prep Time: {{recipe.prepTime}} Cook Time: {{recipe.cookTime}} Total Time: {{recipe.totalTime}} <br>
+      {{recipe.numIngredients}} Ingredients<br>
+      <ul>
+        <li *ngFor="let oneIng of recipe['ingredients']['ing']">
+          {{oneIng.amt.qty}} {{oneIng.amt.unit}} {{oneIng.item}}
+        </li>
+      </ul>
     </div>
   </div>
+  <div>
+    <section>
+      <button  *ngIf="generateShoppingListButtonVisible" mat-raised-button color="accent" (click)="displayShoppingList()">Generate Shopping List</button>
+    </section>
+  </div>
+
+  <div class="box"  *ngIf="this.shoppingListVisible">
+    <ul>
+      <li *ngFor="let oneIng of uniqueIngredientNames">
+        {{oneIng}}
+      </li>
+<!--       <div *ngFor="let recipe of recipesToCookThisWeek">
+        <li *ngFor="let oneIng of recipe['ingredients']['ing']">
+          {{oneIng.amt.qty}} {{oneIng.amt.unit}} {{oneIng.item}}
+        </li>
+      </div> -->
+    </ul>
+  </div>
+
+
+
 </main>
 
 <router-outlet />
