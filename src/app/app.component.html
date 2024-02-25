@@ -54,9 +54,19 @@
 
   <div class="box"  *ngIf="this.shoppingListVisible">
     <ul>
-      <li *ngFor="let oneIng of uniqueIngredientNames">
-        {{oneIng}}
+      <li *ngFor="let oneIngredient of shoppingList.ingredientMap | keyvalue">
+        {{oneIngredient.key}}
+        <ul>
+          <li *ngFor="let oneRecipe of oneIngredient.value">
+            {{oneRecipe.amt.qty}} {{oneRecipe.amt.unit}} ({{oneRecipe.recipe}})
+          </li>
+        </ul>
+
       </li>
+
+
+
+      
 <!--       <div *ngFor="let recipe of recipesToCookThisWeek">
         <li *ngFor="let oneIng of recipe['ingredients']['ing']">
           {{oneIng.amt.qty}} {{oneIng.amt.unit}} {{oneIng.item}}

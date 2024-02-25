@@ -13,6 +13,8 @@ import {FormsModule} from '@angular/forms';
 import * as _ from 'lodash';
 import { Recipe } from './Recipe';
 import { Ing } from './Ing';
+import { RecipeList } from './RecipeList';
+import { ShoppingList } from './ShoppingList';
 
 @Component({
   selector: 'app-root',
@@ -33,10 +35,8 @@ export class AppComponent implements OnInit {
   generateShoppingListButtonVisible: boolean = true;
   shoppingListVisible: boolean = false;
   recipesToCookThisWeek: Recipe[] = [];
-  uniqueIngredientNames: string[] = [];
-  allIngredientsForThisWeek: Map<string, Ing[]> = new Map<string, Ing[]>; /* <Vegan Burrito, {3, tbsp, salt} */
-  experimentalMap: Map<string, string[]> = new Map<string, string[]>; /* <Salt, 2 tbsp (vegan burrito) > */
-  shoppingListIngredients: Map<string, string[]> = new Map<string, string[]>;
+  recList: RecipeList = new RecipeList;
+  shoppingList: ShoppingList = new ShoppingList;
 
   constructor(private httpService: HttpService) {}
 
@@ -97,13 +97,19 @@ export class AppComponent implements OnInit {
 
   
   displayShoppingList() {
+
+    this.recList = new RecipeList(this.recipesToCookThisWeek);
+
+    this.httpService.getShoppingList(this.recList).subscribe(
+      (response) => {
+        this.shoppingList = response;
+        console.log("the shopping list for these recipes is ", JSON.stringify(this.shoppingList));
+      }
+    )
+
     this.recipeGridVisible = false;
     this.shoppingListVisible = true;
     this.generateShoppingListButtonVisible = false;
-
-    //ask java to generate the shopping list for all the recipes
-
-
 
   }
 

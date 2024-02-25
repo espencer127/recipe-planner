@@ -2,10 +2,10 @@ import { Amount } from "./Amount";
 
 export class IngredientOccurrence {
     recipe: string;
-    amount: Amount;
+    amt: Amount;
 
     constructor(data?: {recipe: any; amount: any;}) {
         this.recipe = data?.recipe;
-        this.amount = data?.amount;
+        this.amt = data?.amount;
     }
 }
