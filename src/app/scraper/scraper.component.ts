@@ -26,10 +26,28 @@ export class ScraperComponent {
     scrapeUrl: new FormControl('')
   });
 
-  ingArr = this.fb.array([
-  ])
+  recipePayload = this.fb.group({
+    title: [''],
+    categories: [''],
+    diet: [''],
+    protein: [''],
+    numIngredients: [''],
+    yield: [''],
+    prepTime: [''],
+    cookTime: [''],
+    totalTime: [''],
+    ingredients: this.fb.array([
+      this.fb.group({
+        item: [''],
+        qty: [''],
+        amount: ['']
+      })
+    ]),
+    directions:[''],
+    pictureUrl: ['']
+  });
 
-  recipePayload = new FormGroup({
+  rpp = new FormGroup({
     title: new FormControl(''),
     categories: new FormControl(''),
     diet: new FormControl(''),
@@ -55,8 +73,8 @@ export class ScraperComponent {
         this.scrapeResponseReceived = true;
         this.scrapedRecipe = response;
         console.log("Got back " + JSON.stringify(this.scrapedRecipe))
+
         this.recipePayload.get('title')?.setValue(this.scrapedRecipe.recipe.title);
-        
         this.recipePayload.get('categories')?.setValue(this.scrapedRecipe.recipe.categories);
         this.recipePayload.get('diet')?.setValue(this.scrapedRecipe.recipe.diet);
         this.recipePayload.get('protein')?.setValue(this.scrapedRecipe.recipe.protein);
@@ -70,40 +88,23 @@ export class ScraperComponent {
         
         if (this.scrapedRecipe.recipe.ingredients.ing.length > 0) {
 
-          /* let ingredients = new FormGroup({
-            ing: this.fb.array([])
-          }); */
-
           let incomingIngArr:Ing[] = this.scrapedRecipe.recipe.ingredients.ing;
           
           for (let index = 0; index < this.scrapedRecipe.recipe.ingredients.ing.length; index++) {
-
-            let ingredient = new FormControl(this.createIng(incomingIngArr[index].item, incomingIngArr[index].amt.qty, incomingIngArr[index].amt.unit));
-            //console.log("pushing the ingredient ", (ingredient))
-            this.ingArr.push(ingredient);
+            let ingredient = (this.createIng(incomingIngArr[index].item, incomingIngArr[index].amt.qty, incomingIngArr[index].amt.unit));
+            this.ingredients.push(ingredient);
           }
-
-          let ingArrFormControl = new FormControl(this.ingArr);
-          
-          this.recipePayload.get('ingredients')?.setValue(this.ingArr);
-
-          this.recipePayload.get('ingredients')?.setValue(ingArrFormControl);
 
           console.log("the ingredients now has the structure of ", this.recipePayload.get('ingredients'))
 
-
         }
-
-        /**
-         * 
-         * 
-    ingredients: new FormGroup({
-      ing: this.fb.array([this.createIng()])
-    }),
-         */
 
       }
     )
+  }
+
+  get ingredients():FormArray{
+    return <FormArray> this.recipePayload.get('ingredients');
   }
 
   sendInsertRequest() {
@@ -112,15 +113,9 @@ export class ScraperComponent {
 
   createIng(inputItem:string, inputQty:string, inputUnit:string):FormGroup{
     return this.fb.group({
-      amt:this.createAmt(inputQty, inputUnit),
-      item:[inputItem]
-    })
-  }
-
-  createAmt(inputQty:string, inputUnit:string):FormGroup{
-    return this.fb.group({
-      qty:[inputQty],
-      unit:[inputUnit]
+      item:[inputItem],
+      qty: [inputQty],
+      unit: [inputUnit]
     })
   }
 

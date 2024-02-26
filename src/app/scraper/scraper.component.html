@@ -86,21 +86,30 @@
             {{recipePayload.get('directions')?.value}}</textarea>
         </mat-form-field>
 
-        <div formArrayName="ingredients" *ngFor="let ing of recipePayload.get('ingredients')?.value; let i = index">
+        <div formArrayName="ingredients">
+            <div *ngFor="let ing of this.ingredients.value; let i = index">
+                <mat-form-field>
+                    <mat-label>Amt</mat-label>
+                    <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                        cdkAutosizeMaxRows="5" id="{{'amt'+i}}">
+                    {{ing.amt}}</textarea>
+                </mat-form-field>
 
-            <!-- <ng-container [formGroupName]="ing"> -->
-            <mat-form-field>
-                <mat-label>Item</mat-label>
-                <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                    cdkAutosizeMaxRows="5" id="{{'item'+i}}">
-                {{ing.get('item')?.value}}</textarea>
-            </mat-form-field>
-            <!-- </ng-container> -->
+                <mat-form-field>
+                    <mat-label>Qty</mat-label>
+                    <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                        cdkAutosizeMaxRows="5" id="{{'qty'+i}}">
+                    {{ing.qty}}</textarea>
+                </mat-form-field>
 
-
+                <mat-form-field>
+                    <mat-label>Item</mat-label>
+                    <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                        cdkAutosizeMaxRows="5" id="{{'item'+i}}">
+                    {{ing.item}}</textarea>
+                </mat-form-field>
+            </div>
         </div>
-
-
 
         <button mat-raised-button type="submit">Submit</button>
     </form>
