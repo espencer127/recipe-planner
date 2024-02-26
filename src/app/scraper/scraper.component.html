@@ -1,1 +1,108 @@
-<p>scraper works!</p>
+<div *ngIf="(!scrapeRequestSubmitted && !scrapeResponseReceived)">
+    <form [formGroup]="scrapeRequestForm" (submit)="sendScrapeRequest()">
+        <mat-form-field>
+            <mat-label>URL</mat-label>
+            <input matInput formControlName="scrapeUrl">
+        </mat-form-field>
+
+        <button mat-raised-button type="submit">Submit</button>
+    </form>
+</div>
+
+<div *ngIf="(scrapeRequestSubmitted && !scrapeResponseReceived)">
+    Just give us a ding dang minute please we're working on it
+</div>
+
+<div *ngIf="scrapeResponseReceived">
+
+    <form [formGroup]="recipePayload" (submit)="sendInsertRequest()">
+        <mat-form-field>
+            <mat-label>Title</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('title')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Categories</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('categories')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Diet</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('diet')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Protein</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('protein')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Yield</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('yield')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Prep Time</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('prepTime')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Cook Time</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('cookTime')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Total Time</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('totalTime')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Picture URL</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('pictureUrl')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Directions</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('directions')?.value}}</textarea>
+        </mat-form-field>
+
+        <div formArrayName="ingredients" *ngFor="let ing of recipePayload.get('ingredients')?.value; let i = index">
+
+            <!-- <ng-container [formGroupName]="ing"> -->
+            <mat-form-field>
+                <mat-label>Item</mat-label>
+                <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                    cdkAutosizeMaxRows="5" id="{{'item'+i}}">
+                {{ing.get('item')?.value}}</textarea>
+            </mat-form-field>
+            <!-- </ng-container> -->
+
+
+        </div>
+
+
+
+        <button mat-raised-button type="submit">Submit</button>
+    </form>
+
+</div>

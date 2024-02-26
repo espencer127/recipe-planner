@@ -111,6 +111,10 @@ mat-checkbox {
     border-style: dashed;
 }
 
+mat-form-field {
+    width: 500px !important
+}
+
 h3 {
     color: var(--gray-900);
     line-height: 100%;
