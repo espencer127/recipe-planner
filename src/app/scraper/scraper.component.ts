@@ -6,8 +6,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { HttpService } from '../HttpService';
-import { FullResponse } from '../FullResponse';
+import { FullResponse, ImageInfo, RecipeInfo } from '../FullResponse';
 import { Ing } from '../Ing';
+import { Amount } from '../Amount';
+import { Ingredient } from '../Ingredient';
 
 @Component({
   selector: 'app-scraper',
@@ -21,6 +23,7 @@ export class ScraperComponent {
   scrapeRequestSubmitted: boolean = false;
   scrapeResponseReceived: boolean = false;
   scrapedRecipe!: FullResponse;
+  insertRequestPayload!: FullResponse;
 
   scrapeRequestForm = new FormGroup({
     scrapeUrl: new FormControl('')
@@ -44,22 +47,11 @@ export class ScraperComponent {
       })
     ]),
     directions:[''],
-    pictureUrl: ['']
-  });
-
-  rpp = new FormGroup({
-    title: new FormControl(''),
-    categories: new FormControl(''),
-    diet: new FormControl(''),
-    protein: new FormControl(''),
-    numIngredients: new FormControl(''),
-    yield: new FormControl(''),
-    prepTime: new FormControl(''),
-    cookTime: new FormControl(''),
-    totalTime: new FormControl(''),
-    ingredients: new FormGroup([]), //FormControl(),
-    directions: new FormControl(''),
-    pictureUrl: new FormControl('')
+    pictureUrl: [''],
+    fileName: [''],
+    base64FileName: [''],
+    url: [''],
+    localPath: ['']
   });
 
   constructor(private httpService: HttpService, private fb: FormBuilder) {}
@@ -67,6 +59,13 @@ export class ScraperComponent {
   sendScrapeRequest() {
     console.log(this.scrapeRequestForm.value);
     this.scrapeRequestSubmitted = true;
+
+    //TODO: do we need to trim all the whitespace before throwing them into the mat boxes?
+    //TODO: WE SHOULD BE GETTING THE 'NOTES' BACK FOR EACH INGREDIENT
+
+    //TODO: we need to either initialize with an empty ingredient array or something
+
+    //TODO: better error handling if we get something bad back from server?
 
     this.httpService.scrapeRecipe(this.scrapeRequestForm.get('scrapeUrl')?.value).subscribe(
       (response) => {
@@ -85,9 +84,21 @@ export class ScraperComponent {
         this.recipePayload.get('totalTime')?.setValue(this.scrapedRecipe.recipe.totalTime);
         this.recipePayload.get('directions')?.setValue(this.scrapedRecipe.recipe.directions);
         this.recipePayload.get('pictureUrl')?.setValue(this.scrapedRecipe.recipe.pictureUrl);
-        
-        if (this.scrapedRecipe.recipe.ingredients.ing.length > 0) {
 
+        if (typeof this.scrapedRecipe.image?.fileName !== 'undefined') {
+          this.recipePayload.get('fileName')?.setValue(this.scrapedRecipe.image.fileName);
+        }
+        if (typeof this.scrapedRecipe.image?.base64FileName !== 'undefined') {
+        this.recipePayload.get('base64FileName')?.setValue(this.scrapedRecipe.image.base64FileName);
+        }
+        if (typeof this.scrapedRecipe.image?.url !== 'undefined') {
+        this.recipePayload.get('url')?.setValue(this.scrapedRecipe.image.url);
+        }
+        if (typeof this.scrapedRecipe.image?.localPath !== 'undefined') {
+        this.recipePayload.get('localPath')?.setValue(this.scrapedRecipe.image.localPath);
+        }
+
+        if (this.scrapedRecipe.recipe.ingredients.ing.length > 0) {
           let incomingIngArr:Ing[] = this.scrapedRecipe.recipe.ingredients.ing;
           
           for (let index = 0; index < this.scrapedRecipe.recipe.ingredients.ing.length; index++) {
@@ -96,19 +107,55 @@ export class ScraperComponent {
           }
 
           console.log("the ingredients now has the structure of ", this.recipePayload.get('ingredients'))
-
         }
-
       }
     )
   }
 
-  get ingredients():FormArray{
-    return <FormArray> this.recipePayload.get('ingredients');
+  sendInsertRequest() {
+    //console.log("first gotta convert the recipePayload to an object type FullResponse")
+
+    let postIngArr: Array<Ing> = [];
+
+    for (let index = 0; index < this.ingredients.value.length; index++) {
+      const element = this.ingredients.value[index];
+      let tempAmt: Amount = new Amount(element.qty, element.unit);
+      postIngArr.push(new Ing(tempAmt, element.item));
+    }
+
+    let tempIng: Ingredient = new Ingredient(postIngArr);
+
+    let recInf:RecipeInfo = new RecipeInfo(
+      this.recipePayload.get('title')?.value,
+      this.recipePayload.get('categories')?.value,
+      this.recipePayload.get('diet')?.value,
+      this.recipePayload.get('protein')?.value,
+      this.recipePayload.get('numIngredients')?.value,
+      this.recipePayload.get('yield')?.value,
+      this.recipePayload.get('prepTime')?.value,
+      this.recipePayload.get('cookTime')?.value,
+      this.recipePayload.get('totalTime')?.value,
+      tempIng,
+      this.recipePayload.get('directions')?.value,
+      this.recipePayload.get('pictureUrl')?.value
+    );
+
+    //TODO: i have no idea why i can't make a populated imageinfo object
+    let imgInf:ImageInfo = new ImageInfo();
+
+    let postBody:FullResponse = new FullResponse(recInf, imgInf);
+
+    console.log("the insert request payload is gonna be ", JSON.stringify(recInf));
+
+    this.httpService.insertRecipe(postBody).subscribe(
+      (response) => {
+        console.log("we got the response" + response);
+      }
+    );
   }
 
-  sendInsertRequest() {
-    console.log("one day i will do things. today is not that day")
+  get ingredients():FormArray{
+    return <FormArray> this.recipePayload.get('ingredients');
   }
 
   createIng(inputItem:string, inputQty:string, inputUnit:string):FormGroup{

@@ -79,13 +79,6 @@
             {{recipePayload.get('pictureUrl')?.value}}</textarea>
         </mat-form-field>
 
-        <mat-form-field>
-            <mat-label>Directions</mat-label>
-            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('directions')?.value}}</textarea>
-        </mat-form-field>
-
         <div formArrayName="ingredients">
             <div *ngFor="let ing of this.ingredients.value; let i = index">
                 <mat-form-field>
@@ -110,6 +103,41 @@
                 </mat-form-field>
             </div>
         </div>
+
+        <mat-form-field>
+            <mat-label>Directions</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('directions')?.value}}</textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Image File Name</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('fileName')?.value}}</textarea>
+        </mat-form-field>
+        
+        <mat-form-field>
+            <mat-label>Image Base 64 File Name</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('base64FileName')?.value}}</textarea>
+        </mat-form-field>
+        
+        <mat-form-field>
+            <mat-label>Image URL</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('url')?.value}}</textarea>
+        </mat-form-field>
+        
+        <mat-form-field>
+            <mat-label>Image Local Path</mat-label>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5">
+            {{recipePayload.get('localPath')?.value}}</textarea>
+        </mat-form-field>
 
         <button mat-raised-button type="submit">Submit</button>
     </form>

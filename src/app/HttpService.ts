@@ -24,8 +24,10 @@ export class HttpService {
 
     scrapeRecipe(url: string | null | undefined) : Observable<FullResponse> {
         let scrapeRequest = new ScrapeRequest(url, true);
-
         return this.httpClient.post<FullResponse>(this.grocyUrl+"/scrape", scrapeRequest);
+    }
 
+    insertRecipe(postBody: FullResponse) : Observable<String> {
+        return this.httpClient.post<String>(this.grocyUrl+"/insert", postBody);
     }
 }
