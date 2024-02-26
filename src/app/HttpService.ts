@@ -5,7 +5,6 @@ import { Observable } from 'rxjs';
 import { ShoppingList } from './ShoppingList';
 import { ScrapeRequest } from './ScrapeRequest';
 import { FullResponse } from './FullResponse';
-import { FormControl } from '@angular/forms';
 
 @Injectable({providedIn: 'root'})
 export class HttpService {

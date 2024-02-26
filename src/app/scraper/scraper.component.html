@@ -19,124 +19,106 @@
         <mat-form-field>
             <mat-label>Title</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('title')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('title')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Categories</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('categories')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('categories')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Diet</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('diet')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('diet')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Protein</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('protein')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('protein')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Yield</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('yield')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('yield')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Prep Time</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('prepTime')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('prepTime')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Cook Time</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('cookTime')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('cookTime')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Total Time</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('totalTime')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('totalTime')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Picture URL</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('pictureUrl')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('pictureUrl')?.value}}</textarea>
         </mat-form-field>
 
         <div formArrayName="ingredients">
             <div *ngFor="let ing of this.ingredients.value; let i = index">
                 <mat-form-field>
-                    <mat-label>Amt</mat-label>
+                    <mat-label>Qty</mat-label>
                     <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                        cdkAutosizeMaxRows="5" id="{{'amt'+i}}">
-                    {{ing.amt}}</textarea>
+                        cdkAutosizeMaxRows="5" id="{{'qty'+i}}">{{ing.qty}}</textarea>
                 </mat-form-field>
 
                 <mat-form-field>
-                    <mat-label>Qty</mat-label>
+                    <mat-label>Unit</mat-label>
                     <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                        cdkAutosizeMaxRows="5" id="{{'qty'+i}}">
-                    {{ing.qty}}</textarea>
+                        cdkAutosizeMaxRows="5" id="{{'unit'+i}}">{{ing.unit}}</textarea>
                 </mat-form-field>
 
                 <mat-form-field>
                     <mat-label>Item</mat-label>
                     <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                        cdkAutosizeMaxRows="5" id="{{'item'+i}}">
-                    {{ing.item}}</textarea>
+                        cdkAutosizeMaxRows="5" id="{{'item'+i}}">{{ing.item}}</textarea>
                 </mat-form-field>
             </div>
         </div>
 
         <mat-form-field>
             <mat-label>Directions</mat-label>
-            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('directions')?.value}}</textarea>
+            <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="5">{{recipePayload.get('directions')?.value}}</textarea>
         </mat-form-field>
 
         <mat-form-field>
             <mat-label>Image File Name</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('fileName')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('fileName')?.value}}</textarea>
         </mat-form-field>
         
         <mat-form-field>
             <mat-label>Image Base 64 File Name</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('base64FileName')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('base64FileName')?.value}}</textarea>
         </mat-form-field>
         
         <mat-form-field>
             <mat-label>Image URL</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('url')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('url')?.value}}</textarea>
         </mat-form-field>
         
         <mat-form-field>
             <mat-label>Image Local Path</mat-label>
             <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                cdkAutosizeMaxRows="5">
-            {{recipePayload.get('localPath')?.value}}</textarea>
+                cdkAutosizeMaxRows="5">{{recipePayload.get('localPath')?.value}}</textarea>
         </mat-form-field>
 
         <button mat-raised-button type="submit">Submit</button>

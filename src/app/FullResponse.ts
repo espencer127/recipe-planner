@@ -88,12 +88,12 @@ export class RecipeInfo {
 }
 
 export class ImageInfo {
-    fileName: string | undefined | null;
-    base64FileName: string | undefined | null;
-    url: string | undefined | null;
-    localPath: string | undefined | null;
+    fileName: string;
+    base64FileName: string;
+    url: string;
+    localPath: string;
 
-    constructor(fileName?: string, base64FileName?: string, url?: string, localPath?: string) {
+    constructor(fileName: string, base64FileName: string, url: string, localPath: string) {
         this.fileName = fileName;
         this.base64FileName = base64FileName;
         this.url = url;
