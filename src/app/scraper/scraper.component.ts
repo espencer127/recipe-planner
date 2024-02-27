@@ -107,7 +107,7 @@ export class ScraperComponent {
 
           for (let index = 0; index < this.scrapedRecipe.recipe.ingredients.ing.length; index++) {
 
-            let ingredient = (this.createIng(incomingIngArr[index].item, incomingIngArr[index].amt.qty, incomingIngArr[index].amt.unit));
+            let ingredient = (this.createIng(incomingIngArr[index].item, incomingIngArr[index].amt.qty, incomingIngArr[index].amt.unit, incomingIngArr[index].note));
 
             this.ingredients.push(ingredient);
           }
@@ -123,7 +123,7 @@ export class ScraperComponent {
     for (let index = 0; index < this.ingredients.value.length; index++) {
       const element = this.ingredients.value[index];
       let tempAmt: Amount = new Amount(element.qty, element.unit);
-      postIngArr.push(new Ing(tempAmt, element.item));
+      postIngArr.push(new Ing(tempAmt, element.item, element.note));
     }
 
     let tempIng: Ingredient = new Ingredient(postIngArr);
@@ -153,6 +153,9 @@ export class ScraperComponent {
     this.httpService.insertRecipe(postBody).subscribe(
       (response) => {
         console.log("we got the response" + JSON.stringify(response));
+        this.scrapeRequestForm.get('scrapeUrl')?.setValue('');
+        this.scrapeRequestSubmitted  = false;
+        this.scrapeResponseReceived = false;
       }
     );
   }
@@ -161,11 +164,12 @@ export class ScraperComponent {
     return <FormArray>this.recipePayload.get('ingredients');
   }
 
-  createIng(inputItem: string, inputQty: string, inputUnit: string): FormGroup {
+  createIng(inputItem: string, inputQty: string, inputUnit: string, inputNote: string): FormGroup {
     return this.fb.group({
       item: [inputItem],
       qty: [inputQty],
-      unit: [inputUnit]
+      unit: [inputUnit],
+      note: [inputNote]
     })
   }
 

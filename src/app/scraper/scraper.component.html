@@ -92,6 +92,12 @@
                         <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
                             cdkAutosizeMaxRows="5" formControlName="item">{{ing.get('item')?.value}}</textarea>
                     </mat-form-field>
+                    
+                    <mat-form-field>
+                        <mat-label>Note</mat-label>
+                        <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
+                            cdkAutosizeMaxRows="5" formControlName="note">{{ing.get('note')?.value}}</textarea>
+                    </mat-form-field>
                 </div>
             </div>
         </div>
