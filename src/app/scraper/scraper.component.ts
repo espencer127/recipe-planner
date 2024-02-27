@@ -106,9 +106,18 @@ export class ScraperComponent {
           let incomingIngArr: Ing[] = this.scrapedRecipe.recipe.ingredients.ing;
 
           for (let index = 0; index < this.scrapedRecipe.recipe.ingredients.ing.length; index++) {
-            let ingredient = (this.createIng(incomingIngArr[index].item, incomingIngArr[index].amt.qty, incomingIngArr[index].amt.unit));
+
+            let theItem: string = (typeof incomingIngArr[index].item === 'string' ? incomingIngArr[index].item : '');
+
+            let theQty: string = (typeof incomingIngArr[index].amt.qty === 'string' ? incomingIngArr[index].amt.qty : '1');
+
+            let theUnit: string = (typeof incomingIngArr[index].amt.unit === 'string' ? incomingIngArr[index].amt.unit : 'unit');
+
+            let ingredient = (this.createIng(theItem, theQty, theUnit));
+
             this.ingredients.push(ingredient);
           }
+          console.log("the ingredients now has the structure of ", this.recipePayload.get('ingredients'))
         }
       }
     )
