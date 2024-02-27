@@ -72,32 +72,29 @@
                 formControlName="pictureUrl">{{recipePayload.get('pictureUrl')?.value}}</textarea>
         </mat-form-field>
 
-        <ng-container formArrayName="ingredients">
-            <ng-container *ngFor="let ing of this.ingredients.value; let i = index">
+        <div formArrayName="ingredients">
+            <div *ngFor="let ing of this.ingredients.controls; let i = index">
                 <div [formGroupName]="i">
                     <mat-form-field>
                         <mat-label>Qty</mat-label>
                         <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                            cdkAutosizeMaxRows="5" formControlName="qty"
-                            id="{{'qty'+i}}">{{ing.qty}}</textarea>
+                            cdkAutosizeMaxRows="5" formControlName="qty">{{ing.get('qty')?.value}}</textarea>
                     </mat-form-field>
 
                     <mat-form-field>
                         <mat-label>Unit</mat-label>
                         <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                            cdkAutosizeMaxRows="5" formControlName="unit"
-                            id="{{'unit'+i}}">{{ing.unit}}</textarea>
+                            cdkAutosizeMaxRows="5" formControlName="unit">{{ing.get('unit')?.value}}</textarea>
                     </mat-form-field>
 
                     <mat-form-field>
                         <mat-label>Item</mat-label>
                         <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="1"
-                            cdkAutosizeMaxRows="5" formControlName="item" id="{{'item'+i}}">{{ing.item}}</textarea>
+                            cdkAutosizeMaxRows="5" formControlName="item">{{ing.get('item')?.value}}</textarea>
                     </mat-form-field>
                 </div>
-            </ng-container>
-        </ng-container>
-
+            </div>
+        </div>
 
         <mat-form-field>
             <mat-label>Directions</mat-label>
